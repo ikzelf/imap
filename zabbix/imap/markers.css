@@ -1,59 +1,59 @@
 .hostname {
-	font-weight:bold;
-	color:black;
-	text-align:left;
+    font-weight: bold;
+    color: black;
+    text-align: left;
 }
 
 img.hardwareIcon {
-	max-width:18px;
-	max-height:18px;
+    max-width: 18px;
+    max-height: 18px;
 }
 
-span.st_maintenance {
-	color:gray;
-	font-weight:bold;
+span.status-maintenance {
+    color: gray;
+    font-weight: bold;
 }
 
-span.st_problem {
-	color:red;
-	font-weight:bold;
+span.status-problem {
+    color: red;
+    font-weight: bold;
 }
 
-span.st_ok {
-	color:green;
-	font-weight:bold;
+span.status-ok {
+    color: green;
+    font-weight: bold;
 }
 
-.icon_status_cluster span {
-	text-shadow: 0em 0em 3em white;
-	background-color:rgba(255, 255, 255, 0.56);
-	border-radius:0.3em;
+.icon-status-cluster span {
+    text-shadow: 0 0 3em white;
+    background-color: rgba(255, 255, 255, 0.56);
+    border-radius: 0.3em;
 }
 
 .acknowledge {
-	font-size: smaller;
-	color: rgb(4, 76, 157);
-	position: relative;
-	height:1.2em;
+    font-size: smaller;
+    color: rgb(4, 76, 157);
+    position: relative;
+    height: 1.2em;
 }
 
 .lastchange {
-	font-size: smaller;
-	display:inline-block;
-	right:0px;
-	text-align: right;
-	position:absolute;
+    font-size: smaller;
+    display: inline-block;
+    right: 0px;
+    text-align: right;
+    position: absolute;
 }
 
 .leafletlabel {
     z-index: 999 !important;
     border: 0px;
     background-color: rgba(29, 28, 28, 0.8);
-    color:white;
-    font-weight:normal;
+    color: white;
+    font-weight: normal;
     white-space: nowrap;
-    padding:2px;
-    margin:0px;
+    padding: 2px;
+    margin: 0px;
     font-size: 10px;
     line-height: 12px;
     font: Arial, Helvetica, sans-serif;
@@ -67,853 +67,840 @@ span.st_ok {
     border-right-color: black !important;
 }
 
-.icon_status_cluster {
-	background-image:none !important;
-	border-radius:16px;
-	border-width:0px !important;
-	width:26px !important;
-	height:26px !important;
-	line-height: 25px !important;
-	color: rgb(103, 94, 94);
-	font-weight:bold;
-	font-size:12px;
-	text-align: center;
-	background-position: center center;
-	font-size:8px;
-	padding:0px !important;
-	margin:0px !important;
-	margin-top:-13px !important;
-	margin-left:-13px !important;
+.icon-status-cluster {
+    background-image: none !important;
+    border-radius: 16px;
+    border-width: 0 !important;
+    width: 26px !important;
+    height: 26px !important;
+    line-height: 25px !important;
+    color: rgb(103, 94, 94);
+    font-weight: bold;
+    text-align: center;
+    background-position: center center;
+    font-size: 8px;
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-top: -13px !important;
+    margin-left: -13px !important;
 }
 
-.icon_status {
-	background-repeat: no-repeat !important;
-	border-radius:9px !important;
-	width:18px !important;
-	height:18px !important;
-	background-position: center center !important;
-	box-shadow: none !important;
-	border-width:0px !important;
-	padding:0px !important;
-	margin:0px !important;
-	margin-top:-9px !important;
-	margin-left:-9px !important;
-	text-align: center !important;
-	box-sizing: border-box !important;
+.icon-status {
+    background-repeat: no-repeat !important;
+    border-radius: 9px !important;
+    width: 18px !important;
+    height: 18px !important;
+    background-position: center center !important;
+    box-shadow: none !important;
+    border-width: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-top: -9px !important;
+    margin-left: -9px !important;
+    text-align: center !important;
+    box-sizing: border-box !important;
 }
 
-.icon_status_img {
-	background-repeat: no-repeat !important;
-	border-radius:10px;
-	width:24px !important;
-	height:24px !important;
-	background-position: center center;
-	box-shadow: none !important;
-	border-width:0px !important;
-	padding:0px !important;
-	margin:0px !important;
-	margin-top:-12px !important;
-	margin-left:-12px !important;
-	text-align: center !important;
-	box-sizing: border-box !important;
-	line-height: 20px !important;
+.icon-status-img {
+    background-repeat: no-repeat !important;
+    border-radius: 10px;
+    width: 24px !important;
+    height: 24px !important;
+    background-position: center center;
+    box-shadow: none !important;
+    border-width: 0px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    margin-top: -12px !important;
+    margin-left: -12px !important;
+    text-align: center !important;
+    box-sizing: border-box !important;
+    line-height: 20px !important;
 }
 
-.icon_status_img img {
-	max-width:18px !important;
-	max-height:18px !important;
-	display: inline-block !important;
-	vertical-align: middle !important;
-	margin: 0 auto !important;
+.icon-status-img img {
+    max-width: 18px !important;
+    max-height: 18px !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+    margin: 0 auto !important;
 }
 
-.icon_status_0 {
-	background-color:#58F500;
-	z-index: 400 !important;
+.icon-status-0 {
+    background-color: #58F500;
+    z-index: 400 !important;
 }
 
-.icon_status_1 {
-	background-color:#D6F6FF;
-	z-index: 401 !important;
+.icon-status-1 {
+    background-color: #D6F6FF;
+    z-index: 401 !important;
 }
 
-.icon_status_2 {
-	background-color:#FFF6A5;
-	z-index: 402 !important;
+.icon-status-2 {
+    background-color: #FFF6A5;
+    z-index: 402 !important;
 }
 
-.icon_status_3 {
-	background-color:#FFB689;
-	z-index: 403 !important;
+.icon-status-3 {
+    background-color: #FFB689;
+    z-index: 403 !important;
 }
 
-.icon_status_4 {
-	background-color:#FF9999;
-	z-index: 404 !important;
+.icon-status-4 {
+    background-color: #FF9999;
+    z-index: 404 !important;
 }
 
-.icon_status_5 {
-	background-color:#FF3838;
-	z-index: 405 !important;
+.icon-status-5 {
+    background-color: #FF3838;
+    z-index: 405 !important;
 }
 
-.icon_status_smile_0 {
-	background-image:url(images/status1.gif);
+.icon-status-smile-0 {
+    background-image: url(images/status1.gif);
 }
 
-.icon_status_smile_1 {
-	background-image:url(images/status1.gif);
+.icon-status-smile-1 {
+    background-image: url(images/status1.gif);
 }
 
-.icon_status_smile_2 {
-	background-image:url(images/status3.gif);
+.icon-status-smile-2 {
+    background-image: url(images/status3.gif);
 }
 
-.icon_status_smile_3 {
-	background-image:url(images/status5.gif);
+.icon-status-smile-3 {
+    background-image: url(images/status5.gif);
 }
 
-.icon_status_smile_4 {
-	background-image:url(images/status5.gif);
+.icon-status-smile-4 {
+    background-image: url(images/status5.gif);
 }
 
-.icon_status_smile_5 {
-	background-image:url(images/status5.gif);
+.icon-status-smile-5 {
+    background-image: url(images/status5.gif);
 }
 
 .maintenance {
-	background-image:url(images/maintenance.png) !important;
-	background-position: center center;
+    background-image: url(images/maintenance.png) !important;
+    background-position: center center;
 }
-.maintenance.nottrigger {
-	background-color:#F7FD04 !important;
-	background-image:url(images/maintenance.png) !important;
-	z-index: 403 !important;
-	background-position: center center;
+
+.maintenance.not-trigger {
+    background-color: #F7FD04 !important;
+    background-image: url(images/maintenance.png) !important;
+    z-index: 403 !important;
+    background-position: center center;
 }
 
 .trigger {
-	padding:2px;
-	margin-bottom:3px;
-	border: 1px solid grey;
-	border-radius: 4px;
-	color:black;
+    padding: 2px;
+    margin-bottom: 3px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    color: black;
 }
 
 .triggerst0 {
-	background-color:#58F500;
+    background-color: #58F500;
 }
 
 .triggerst1 {
-	background-color:#D6F6FF;
+    background-color: #D6F6FF;
 }
 
 .triggerst2 {
-	background-color:#FFF6A5;
+    background-color: #FFF6A5;
 }
 
 .triggerst3 {
-	background-color:#FFB689;
+    background-color: #FFB689;
 }
 
 .triggerst4 {
-	background-color:#FF9999;
+    background-color: #FF9999;
 }
 
 .triggerst5 {
-	background-color:#FF3838;
+    background-color: #FF3838;
 }
 
 div.search-control {
-	background-color:white;
-	border-radius:5px;
-	border: 2px solid rgba(0,0,0,0.2);
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
 }
 
 #search-control-input {
-	padding:5px;
+    padding: 5px;
 }
 
-#search-control-text{
-	display: block;
-	width: 100%;
-	left: 50px;
-	right: 3px;
-	min-width: 250px;
-	border:0px;
-	padding:2px;
-	padding-left: 50px;
-	box-sizing: border-box;
-	-webkit-appearance: none;
-	color: #383838;
-	background-color: #f2f2f2;
+#search-control-text {
+    display: block;
+    width: 100%;
+    left: 50px;
+    right: 3px;
+    min-width: 250px;
+    border: 0px;
+    padding: 2px;
+    padding-left: 50px;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    color: #383838;
+    background-color: #f2f2f2;
 
 }
 
 #search-control-input img {
-	position: absolute;
-	left: 5px;
-	top: 10px;
+    position: absolute;
+    left: 5px;
+    top: 10px;
 }
 
 div.result {
-	width:30em;
-	margin-right: 2em;
-	margin-top:2em;
+    width: 30em;
+    margin-right: 2em;
+    margin-top: 2em;
 }
 
 #search-control-list {
-	border-top: 1px solid rgba(128, 128, 128, 0.72);
-	max-height:20em;
-	overflow-y:auto;
+    border-top: 1px solid rgba(128, 128, 128, 0.72);
+    max-height: 20em;
+    overflow-y: auto;
 }
 
 img.vertical-middle {
-	vertical-align:middle;
+    vertical-align: middle;
 }
 
 .my-location-control a {
-	display:block;
-	background-image: url(leaflet/images/my-location.png);
-	width: 30px;
-	height: 30px;
+    display: block;
+    background-image: url(leaflet/images/my-location.png);
+    width: 30px;
+    height: 30px;
 }
 
-div.hostcontrol {
-	text-align:right;
-	margin-top:5px;
-	min-width: 220px;
-	position: relative;
+div.host-control {
+    text-align: right;
+    margin-top: 5px;
+    min-width: 220px;
+    position: relative;
+}
+
+.host-control button {
+    margin-left: 2px;
 }
 
 #imapmes {
-	background-color: transparent;
-	text-align: center;
-	display: block;
-	position: absolute;
-	top: 10px;
-	width: 300px;
-	margin-left: -150px;
-	left: 50%;
-	z-index:1003;
+    background-color: transparent;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 10px;
+    width: 300px;
+    margin-left: -150px;
+    left: 50%;
+    z-index: 1003;
 }
 
 #imapmes div {
-	position: relative;
-	display: inline-block;
-	margin-bottom: 5px;
-	width: 280px;
-	padding: 2px;
-	background-color:rgba(0, 0, 0, 0.78);
-	border-radius:10px;
-	color: rgba(255, 255, 255, 0.65);
+    position: relative;
+    display: inline-block;
+    margin-bottom: 5px;
+    width: 280px;
+    padding: 2px;
+    background-color: rgba(0, 0, 0, 0.78);
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.65);
 }
 
 #imapmes div div {
-	display:inline-block;
-	background-color: transparent;
-	font-size: 14px;
+    display: inline-block;
+    background-color: transparent;
+    font-size: 14px;
 }
 
 #imapmes .close {
-	background-color: transparent;
-	display: inline-block;
-	position: absolute;
-	right: 5px;
-	top: 2px;
-	color: red;
-	width: 8px;
-	cursor: pointer;
-	padding: 0px;
-	margin: 0px;
-	font-weight: 900;
-	font-size: smaller;
+    background-color: transparent;
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    top: 2px;
+    color: red;
+    width: 8px;
+    cursor: pointer;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 900;
+    font-size: smaller;
 }
 
 #under_hosts_list {
-	padding:5px;
+    padding: 5px;
+    width: 350px;
 }
 
 #out_hosts_list {
-	top:80px;
-	right:0px;
-	background-color:#fff;
-	display:block;
-	border-top-left-radius:20px;
-	border-bottom-left-radius:20px;
-	z-index:999;
+    top: 80px;
+    right: 0px;
+    background-color: #fff;
+    display: block;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    z-index: 999;
 }
 
 #show_hosts_list {
-	padding: 10px;
-	font-size: 1.1em;
+    padding: 10px;
+    font-size: 1.1em;
 }
 
 #close_hosts_list {
-	position:absolute;
-	top:0px;
-	right:10px;
-	background-color:transparent;
-	display:block;
-	color:white;
-	cursor:pointer;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    background-color: transparent;
+    display: block;
+    color: white;
+    cursor: pointer;
 }
 
 #search_hosts_list input {
-	border: 1px solid #9E9E9E;
-	color: #000000;
-	padding: 2px;
-	background: rgba(239, 239, 239, 0.51);
-	border-radius: 4px;
-	-webkit-appearance: none;
-	width:100%;
-	box-sizing: border-box;
+    border: 1px solid #9E9E9E;
+    color: #000000;
+    padding: 2px;
+    background: rgba(239, 239, 239, 0.51);
+    border-radius: 4px;
+    -webkit-appearance: none;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 #hosts_list {
-	margin-top: 5px;
-	max-height: 200px;
-	width: 100%;
-	overflow-y: auto;
+    margin-top: 5px;
+    max-height: 200px;
+    width: 100%;
+    overflow-y: auto;
 }
 
 #out_hosts_list {
-	top:80px;
-	right:0px;
-	background-color:#fff;
-	display:block;
-	border-top-left-radius:20px;
-	border-bottom-left-radius:20px;
-	z-index:999;
+    top: 80px;
+    right: 0px;
+    background-color: #fff;
+    display: block;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    z-index: 999;
 }
 
 .nicescroll {
-	scrollbar-3d-light-color: #000000;
-	scrollbar-arrow-color: #F2F5FF;
-	scrollbar-base-color: #F2F5FF;
-	scrollbar-dark-shadow-color: #000000;
-	scrollbar-face-color: #475059;
-	scrollbar-highlight-color: #B8C2CC;
-	scrollbar-shadow-color: #B8C2CC;
-	scrollbar-track-color: #262D34;
-	scrollbar-height: 10px
+    scrollbar-3d-light-color: #000000;
+    scrollbar-arrow-color: #F2F5FF;
+    scrollbar-base-color: #F2F5FF;
+    scrollbar-dark-shadow-color: #000000;
+    scrollbar-face-color: #475059;
+    scrollbar-highlight-color: #B8C2CC;
+    scrollbar-shadow-color: #B8C2CC;
+    scrollbar-track-color: #262D34;
+    scrollbar-height: 10px
 }
 
 .panoramio.leaflet-control {
-  box-shadow: 0 1px 5px rgba(0,0,0,0.4);
-  background: #fff;
-  border-radius: 5px;
-  padding: 10px;
-  cursor:pointer;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
 }
 
 .panoramio.leaflet-control img {
-  vertical-align:middle;
+    vertical-align: middle;
 }
 
-.nicescroll scrollbar[orient="horizontal"] slider{
-height: 10px !important;
-width: 10px !important;
+.nicescroll scrollbar[orient="horizontal"] slider {
+    height: 10px !important;
+    width: 10px !important;
 }
 
-.nicescroll::-webkit-scrollbar-track
-{
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.6);
-	background-color: #CCCCCC;
+.nicescroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.6);
+    background-color: #CCCCCC;
 }
 
-.nicescroll::-webkit-scrollbar
-{
-	width: 10px;
-	background-color: #F5F5F5;
+.nicescroll::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
 }
 
-.nicescroll::-webkit-scrollbar-thumb
-{
-	background-color: black;
+.nicescroll::-webkit-scrollbar-thumb {
+    background-color: black;
 }
 
 #hosts_list .host_in_list {
-	border-radius:5px;
-	padding:2px;
-	background-color:#E1E7EC;
-	margin-bottom:3px;
-	color:black;
-	cursor:pointer;
+    border-radius: 5px;
+    padding: 2px;
+    background-color: #E1E7EC;
+    margin-bottom: 3px;
+    color: black;
+    cursor: pointer;
 }
 
 #hosts_list .host_in_list:hover {
-	background-color:rgba(97, 155, 221, 0.48);
+    background-color: rgba(97, 155, 221, 0.48);
 }
 
 #hosts_list .host_in_list:active {
-	background-color:rgba(97, 155, 221, 1);
+    background-color: rgba(97, 155, 221, 1);
 }
 
 .host_crosschair {
-	cursor:crosshair;
+    cursor: crosshair;
 }
 
 .hardware-select {
-      padding:2px;
-      border-radius:5px;
-      background-color:rgba(128, 128, 128, 0.4);
-      margin-bottom:2px;
-      cursor:pointer;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.4);
+    margin-bottom: 2px;
+    cursor: pointer;
 }
 
 .hardware-select.active {
-      background-color:rgba(128, 128, 128, 0.8);
+    background-color: rgba(128, 128, 128, 0.8);
 }
 
 .hardware-select img {
-      vertical-align: middle;
+    vertical-align: middle;
 }
 
-.hostcontrol a {
-	margin:5px;
+.host-control a {
+    margin: 5px;
 }
 
 #filter-indicator {
-	display:inline-block;
+    display: inline-block;
 }
 
 #filter-indicator img {
-	height:1.2em;
+    height: 1.2em;
 }
 
-.delbutton {
-	color:red;
-	font-weight:bold;
-}
-
-#linkoptionsdialog .item.linkdash {
-	display:none !important;
-	margin-bottom:15px;
-	font-size:1.2em;
-	font-weight:bold;
+.delete-icon {
+    color: red;
+    font-weight: bold;
 }
 
 .leaflet-control-measure {
-	background-image:url(images/measure.png);
+    background-image: url(images/measure.png);
 }
 
 .links_filter {
-	display:block;
-	position:absolute;
-	top:2px;
-	left:0;
-	right:20px;
-	z-index:900;
+    padding: 7px 14px;
 }
 
 .links_filter input {
-	width:100%;
+    width: 100%;
 }
 
 .links_fields {
- 	display:block;
-	position:absolute;
-	top:0px;
-	left:0;
-	padding-top:25px;
-	height:100%;
-	box-sizing: border-box;
-	z-index:899;
-	right:2px;
+
 }
 
 .host_links .link {
-	display:inline-block;
-	margin-right:2em;
-	padding:0.1em;
-	padding-left:0.5em;
-	padding-right:0.5em;
-	background-color:rgba(128, 128, 128, 0.25);
-	border-radius:2px;
+    display: inline-block;
+    margin-right: 2em;
+    padding: 0.1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    background-color: rgba(128, 128, 128, 0.25);
+    border-radius: 2px;
 }
 
 .leaflet-popup .triggers {
-	margin-top:0.5em;
+    margin-top: 0.5em;
 }
 
-.leaflet-popup .hosterror {
-	margin-bottom:0.5em;
-	color:red;
-	font-size: smaller;
+.leaflet-popup .host-error {
+    margin-bottom: 0.5em;
+    color: red;
+    font-size: smaller;
 }
 
 .hostdescription pre {
-	word-break: break-all;
-	word-wrap: break-word;
-	white-space: pre;
-	white-space: pre-wrap; 
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: pre;
+    white-space: pre-wrap;
 }
 
 .host_inventory {
-	display:table;
-	width:100%;
+    display: table;
+    width: 100%;
 }
 
 .host_inventory_line {
-	display:table-row;
+    display: table-row;
 }
 
 .host_inventory_line_l {
-	display:table-cell;
-	text-align:right;
-	border-bottom:1px dotted grey;
+    display: table-cell;
+    text-align: right;
+    border-bottom: 1px dotted grey;
 }
 
 .host_inventory_line_r {
-	display:table-cell;
-	padding-left:0.5em;
-	border-bottom:1px dotted grey;
+    display: table-cell;
+    padding-left: 0.5em;
+    border-bottom: 1px dotted grey;
 }
 
 .host_des {
-	max-height:150px;
-	overflow-y:auto;
-	background: rgb(228, 228, 228);
-	margin-bottom:1em;
-	padding-bottom:0.5em;
+    max-height: 150px;
+    overflow-y: auto;
+    background: rgb(228, 228, 228);
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
 }
 
 .hosts_list.leaflet-control {
-	box-shadow: 0 1px 5px rgba(0,0,0,0.4);
-	background: #fff;
-	border-radius: 5px; 
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+    background: #fff;
+    border-radius: 5px;
 }
 
 .last_triggers.leaflet-control {
-  box-shadow: 0 1px 5px rgba(0,0,0,0.4);
-  background: #fff;
-  border-radius: 5px;
-  max-height: 30%;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+    background: #fff;
+    border-radius: 5px;
+    max-height: 30%;
 }
 
 .last_triggers.leaflet-control .last_triggers_cap {
-	padding:10px;
-	cursor:pointer;
-	font-weight:bold;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 .last_triggers.leaflet-control .last_triggers_div {
-	padding:5px;
-	margin:6px;
-	margin-top: 30px;
-	width:250px;
-	min-height:30px;
-	overflow-y: auto;
-	max-height:400px;
+    padding: 5px;
+    margin: 6px;
+    margin-top: 30px;
+    width: 250px;
+    min-height: 30px;
+    overflow-y: auto;
+    max-height: 400px;
 }
 
 .last_triggers.leaflet-control .last_triggers_keep {
-	right:10px;
-	top:5px;
-	position:absolute;
-	cursor:pointer;
-	font-weight:bold;
-	font-size: smaller;
+    right: 10px;
+    top: 5px;
+    position: absolute;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: smaller;
 }
 
-.last_triggers.leaflet-control .last_triggers_keep input{
-	vertical-align:middle;
+.last_triggers.leaflet-control .last_triggers_keep input {
+    vertical-align: middle;
 }
 
 .last_triggers.leaflet-control .last_triggers_sort {
-	left:10px;
-	top:6px;
-	position:absolute;
-	cursor:pointer;
-	font-weight:bold;
-	font-size: smaller;
+    left: 10px;
+    top: 6px;
+    position: absolute;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: smaller;
 }
 
 .last_triggers.leaflet-control .last_triggers_sort_type {
-  	left:10px;
-	top:5px;
-	position:absolute;
-	cursor:pointer;
-	font-weight:bold;
-	font-size: smaller;
-	padding:2px;
+    left: 10px;
+    top: 5px;
+    position: absolute;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: smaller;
+    padding: 2px;
 }
 
 .leaflet-top {
-	z-index:1002;
+    z-index: 1002;
 }
 
 span.coordinates {
-	  color: rgb(140, 140, 140);
+    color: rgb(140, 140, 140);
 }
 
 .leaflet-control-zoomslider a {
-  border-radius:4px;
+    border-radius: 4px;
 }
 
 .leaflet-control-zoomslider .leaflet-control-zoomslider-wrap {
-  border-color:transparent !important;
-  background-color:transparent !important;
+    border-color: transparent !important;
+    background-color: transparent !important;
 }
 
 .leaflet-control-zoomslider .leaflet-control-zoomslider-body {
-  border-width: 4px !important;
-  background-color: black;
+    border-width: 4px !important;
+    background-color: black;
 }
 
 span.graphPopupWindow {
-  display:block !important;
-  position:relative !important;
+    display: block !important;
+    position: relative !important;
+    max-width: 100%;
+    max-height: 100%;
+    width: 800px;
+    height: 650px;
 }
 
 .ui-dialog {
-  z-index: 1003;
+    z-index: 1003;
 }
 
 .menuPopup .ui-menu ul.ui-corner-all {
-  max-height: 300px;
-  overflow-y: auto;
+    max-height: 300px;
+    overflow-y: auto;
 }
 
-.hostcontrol .hostItems {
-	position:absolute;
-	left:0px;
+.host-control .host-items {
+    position: absolute;
+    left: 0px;
 }
 
 .googlestreetview_marker {
-	display:block;
-	width:50px;
-	height:50px;
-	background-color:transparent;
-	background-image:url('images/pegman-1x.png');
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    background-image: url('images/pegman-1x.png');
 }
 
 .cp-color-picker {
-  z-index:1099;
+    z-index: 1099;
 }
 
 .leaflet-marker-icon.panoramio-cluster {
-	border:0px;
-	width:18px;
-	height:18px;
-	background-image:url('images/panoramio-cluster.png');
+    border: 0px;
+    width: 18px;
+    height: 18px;
+    background-image: url('images/panoramio-cluster.png');
 }
 
 #showImage {
-	display:block;
-	position:fixed;
-	background-color:rgba(0, 0, 0, 0.69);
-	top:0;
-	bottom:0;
-	left:0;
-	right:0;
-	z-index: 1400;
+    display: block;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.69);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1400;
 }
 
 #showImage .close_button {
-	display: block;
-	position: absolute;
-	right: 30px;
-	top: 30px;
-	color: red;
-	font-size: 2em;
-	font-weight: bolder;
-	background-color: rgba(8, 1, 1, 0.25);
-	padding: 7px;
-	border-radius: 10px;
-	cursor: pointer;
-	z-index: 1400;
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    color: red;
+    font-size: 2em;
+    font-weight: bolder;
+    background-color: rgba(8, 1, 1, 0.25);
+    padding: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 1400;
 }
 
 #showImage .image_div {
-	display:block;
-	vertical-align: middle;
-	text-align:center;
-	position: absolute;
-	top:0;
-	bottom:0;
-	left:0;
-	right:0;
+    display: block;
+    vertical-align: middle;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 #showImage .loading_indicator {
-	display:block;
-	position: absolute;
-	top:0;
-	bottom:0;
-	left:0;
-	right:0;
-	background-image:url('images/image-loading.gif');
-	background-repeat:no-repeat;
-	background-position: center center;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url('images/image-loading.gif');
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 #showImage .image_div img {
-	display:inline-block;
-	vertical-align: middle;
-	text-align:center;
-	max-width:98%;
-	max-height:98%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    max-width: 98%;
+    max-height: 98%;
 }
 
 #showImage .image_div:before { /* для IE8+ */
-  content: "";
-  display: inline-block;
-  min-height: inherit;
-  height: 100%;
-  vertical-align: middle;
+    content: "";
+    display: inline-block;
+    min-height: inherit;
+    height: 100%;
+    vertical-align: middle;
 }
 
 #showImage .text_for_image_div {
-	display: block;
-	position: absolute;
-	text-align:center;
-	bottom:30px;
-	left:0;
-	right:0;
-	z-index: 1400;
+    display: block;
+    position: absolute;
+    text-align: center;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    z-index: 1400;
 }
 
 #showImage .text_for_image {
-	display: inline;
-	color: white;
-	font-size: 1.5em;
-	z-index: 1400;
-	background-color: rgba(8, 1, 1, 0.5);
-	padding: 7px;
-	border-radius: 10px;
+    display: inline;
+    color: white;
+    font-size: 1.5em;
+    z-index: 1400;
+    background-color: rgba(8, 1, 1, 0.5);
+    padding: 7px;
+    border-radius: 10px;
 }
 
 #showImage .text_for_image a {
-	color:rgb(0, 245, 255);
+    color: rgb(0, 245, 255);
 }
 
 #showImage .text_for_image a:visited {
-	color:rgb(0, 245, 255);
+    color: rgb(0, 245, 255);
 }
 
 .panoramio_photo_container {
-	border-width: 8px;
-	border-radius: 12px;
-	border-color: transparent;
-	border-style: solid;
-	display:inline-block;
-	cursor:pointer;
+    border-width: 8px;
+    border-radius: 12px;
+    border-color: transparent;
+    border-style: solid;
+    display: inline-block;
+    cursor: pointer;
 }
 
 .panoramio_photo_container.hover {
-	border-color: rgba(111, 239, 255, 0.22);
+    border-color: rgba(111, 239, 255, 0.22);
 }
 
 
 .weathersection {
-  position: relative;
-  display: block;
-  border: 1px solid rgba(128, 128, 128, 0.44);
-  border-radius: 5px;
-  padding: 6px;
-  margin-top: 10px;
-  text-align: right;
+    position: relative;
+    display: block;
+    border: 1px solid rgba(128, 128, 128, 0.44);
+    border-radius: 5px;
+    padding: 6px;
+    margin-top: 10px;
+    text-align: right;
 }
 
 .weathersection div {
-  position: relative;
-  display: inline;
-  padding: 2px;
+    position: relative;
+    display: inline;
+    padding: 2px;
 }
 
 .weathersectiondesc {
-  top: -15px;
-  left: 0px;
-  background-color: white;
+    top: -15px;
+    left: 0px;
+    background-color: white;
 }
 
 .weatherlinkback {
-  margin-top: 10px;
-  font-size: 0.9em;
-  text-align: right; 
+    margin-top: 10px;
+    font-size: 0.9em;
+    text-align: right;
 }
 
 a.button {
-	background-color: rgba(210, 209, 209, 0.51);
-	padding: 3px;
-	border-radius: 3px;
-	border: 1px solid #969494;
-	color: #000;
-	font-weight: bold;
-	text-decoration: none;
-	display: inline-block;
-	margin:5px;
-	min-width:12px;
-	min-height:12px;
-	position:relative;
+    background-color: rgba(210, 209, 209, 0.51);
+    padding: 3px;
+    border-radius: 3px;
+    border: 1px solid #969494;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+    min-width: 12px;
+    min-height: 12px;
+    position: relative;
 }
 
 .imenu-control.leaflet-control {
-	box-shadow: 0 1px 5px rgba(0,0,0,0.4);
-	background: #fff;
-	border-radius: 5px;
-	padding: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+    background: #fff;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .imenu-control .button {
-	background-color:transparent !important;
+    background-color: transparent !important;
 }
 
 .icon96 {
-	background-position: -270px -72px;
+    background-position: -270px -72px;
 }
 
 .icon113 {
-	background-position: -216px -90px;
+    background-position: -216px -90px;
 }
 
 .icon125 {
-	background-position: -72px -108px;
+    background-position: -72px -108px;
 }
 
 .icon197 {
-	background-position: -288px -162px;
+    background-position: -288px -162px;
 }
 
 .gp-ui {
-	border:0px !important;
-	background-image:url('google-plus-ui-buttons/images/google+-ui-sprite-gray.png');
+    border: 0px !important;
+    background-image: url('google-plus-ui-buttons/images/google+-ui-sprite-gray.png');
 }
+
 .gp-ui:hover {
-	background-image:url('google-plus-ui-buttons/images/google+-ui-sprite-colour.png');  
+    background-image: url('google-plus-ui-buttons/images/google+-ui-sprite-colour.png');
 }
 
 :focus {
-	outline-color:transparent;
+    outline-color: transparent;
 }
 
 .ui-widget-overlay {
-	z-index:1998;
+    z-index: 1998;
 }
 
 .ui-dialog {
-	z-index: 1999;
+    z-index: 1999;
 }
 
 span.imap_messages_count {
-	position: absolute;
-	right: -3px;
-	bottom: -3px;
-	font-size: 0.9em;
-	display: block;
-	color: rgb(5, 14, 105);
+    position: absolute;
+    right: -3px;
+    bottom: -3px;
+    font-size: 0.9em;
+    display: block;
+    color: rgb(5, 14, 105);
 }
 
 .imap_dev_mes {
-	padding-bottom:5px;
-	margin-bottom:15px;
-	border-bottom:1px dotted gray;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    border-bottom: 1px dotted gray;
 }
 
 .link_menu {
-	cursor:pointer;
+    cursor: pointer;
 }
 
 .ui-menu .ui-menu-item {
@@ -921,5 +908,22 @@ span.imap_messages_count {
 }
 
 #mapdiv {
-	color:black;
+    color: black;
+}
+
+
+#link-options-dialog input {
+    display: block;
+}
+
+#link-options-dialog label {
+    margin-bottom: 14px;
+    display: block;
+}
+
+
+#link-options-dialog .link-dash {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
 }
