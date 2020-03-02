@@ -30,6 +30,8 @@ span.status-ok {
     border-radius: 0.3em;
 }
 
+
+
 .acknowledge {
     font-size: smaller;
     color: rgb(4, 76, 157);
@@ -67,8 +69,10 @@ span.status-ok {
     border-right-color: black !important;
 }
 
-.icon-status-cluster {
-    background-image: none !important;
+
+
+.icon-status-cluster,
+.staff-status-cluster {
     border-radius: 16px;
     border-width: 0 !important;
     width: 26px !important;
@@ -83,6 +87,41 @@ span.status-ok {
     margin: 0 !important;
     margin-top: -13px !important;
     margin-left: -13px !important;
+}
+
+.staff-status-cluster {
+    background-image: url('/imap/images/staff.png') !important;
+    background-position: center center;
+    background-size: cover;
+}
+
+.icon-status-cluster {
+    background-image: none !important;
+}
+
+.status-counters {
+    display: inline-block;
+    height: 8px;
+    width: calc(100% - 4px);
+    border-radius: 1em;
+    line-height: 1;
+    background: rgba(255, 255, 255, .9);
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+
+.status-counters span {
+    text-shadow: 0 0 3em white;
+}
+
+.marker-staff-name {
+    position: absolute;
+    background: white;
+    padding: 0 7px;
+    border-radius: 3px;
+    left: -50%;
+    margin-top: 5px;
 }
 
 .icon-status {
@@ -101,6 +140,7 @@ span.status-ok {
     box-sizing: border-box !important;
 }
 
+.staff-status,
 .icon-status-img {
     background-repeat: no-repeat !important;
     border-radius: 10px;
@@ -118,12 +158,25 @@ span.status-ok {
     line-height: 20px !important;
 }
 
+.staff-status img,
 .icon-status-img img {
     max-width: 18px !important;
     max-height: 18px !important;
     display: inline-block !important;
     vertical-align: middle !important;
     margin: 0 auto !important;
+}
+
+.staff-status-unknown {
+    background-color: #FFF6A5;
+}
+
+.staff-status-inactive {
+    background-color: #FF3838;
+}
+
+.staff-status-active {
+    background-color: #58F500;
 }
 
 .icon-status-0 {

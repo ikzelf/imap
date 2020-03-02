@@ -14,10 +14,13 @@ import LinkService from './services/link-service';
 import LinkLayerGroup from './views/map/layers/link-group';
 import HostService from './services/host-service';
 import NotificationService from './services/notification';
-import PopupCreator from "./services/map/popup-creator";
-import TooltipCreator from "./services/map/tooltip-creator";
-import ImageIconCreator from "./services/map/image-icon-creator";
-import SmileIconCreator from "./services/map/smile-icon-creator";
+import PopupCreator from './services/map/popup-creator';
+import TooltipCreator from './services/map/tooltip-creator';
+import ImageIconCreator from './services/map/image-icon-creator';
+import SmileIconCreator from './services/map/smile-icon-creator';
+import StaffService from './services/staff-service';
+import StaffClusterGroup from './views/map/layers/staff-cluster-group';
+import * as moment from "moment";
 
 class Imap {
     settings = DEFAULT_SETTINGS;
@@ -54,6 +57,9 @@ class Imap {
 
     init() {
         this.map = new Map(this.settings);
+
+
+        moment.locale(this.settings.lang);
 
 
         this.searchMarkers = L.layerGroup();
@@ -102,6 +108,12 @@ class Imap {
         this.map.on('overlayadd', () => this.onUpdateOverlay());
         this.map.on('baselayerchange', event => this.onBaseLayerChange(event));
 
+        this.staffLayer = null;
+        if (imap.settings.staffApi.enable) {
+            new StaffService().run();
+
+            this.staffLayer = new StaffClusterGroup();
+        }
 
         this.setLayersMap();
 
@@ -235,6 +247,12 @@ class Imap {
 
         if (this.settings.linksEnabled) {
             this.controls.layers.addOverlay(this.links, __('Host\'s links'));
+        }
+
+        if (this.staffLayer) {
+            this.map.addLayer(this.staffLayer);
+
+            this.controls.layers.addOverlay(this.staffLayer, __('Staffs'));
         }
     }
 

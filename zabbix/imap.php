@@ -14,7 +14,7 @@ define('ZBX_ACK_STS_ANY', 1);
 bindtextdomain('imap', 'locale');
 bind_textdomain_codeset('imap', 'UTF-8');
 
-require_once __DIR__ . '/include/config.inc.php';
+require_once './include/config.inc.php';
 require_once __DIR__ . '/imap/DB.php';
 
 spl_autoload_register(static function ($class) {
@@ -44,7 +44,7 @@ $request = new Request();
 $output = $request->get('output', false);
 
 if ($output !== 'ajax') {
-    require_once __DIR__ . '/include/page_header.php';
+    require_once './include/page_header.php';
 }
 
 $fields = array(

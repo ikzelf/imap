@@ -23,7 +23,7 @@ class LinkLayerGroup extends L.LayerGroup {
      * @param link {Link}
      */
     onLinkUpdated(link) {
-        if (!this._map.hasLayer(this)) {
+        if (!this._map || !this._map.hasLayer(this)) {
             return;
         }
 
