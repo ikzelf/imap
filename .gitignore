@@ -1,8 +1,10 @@
 .idea
+secret.php
 settings.js
 additions.js
 userstyles.css
-zabbix/imap/version
-zabbix/imap/hardware/*
-!zabbix/imap/hardware/readme.md
-!zabbix/imap/hardware/none.png
+zabbix/imapify/version
+zabbix/imapify/hardware/*
+!zabbix/imapify/hardware/readme.md
+!zabbix/imapify/hardware/none.png
+*.local
