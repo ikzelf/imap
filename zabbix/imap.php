@@ -570,5 +570,5 @@ echo '<script type="text/javascript" src="imap/thirdtools.js"></script>';
 
 textdomain('frontend');
 if ($output !== 'block') {
-    require_once __DIR__ . '/include/page_footer.php';
+    require_once  './include/page_footer.php';
 }
