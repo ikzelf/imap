@@ -18,11 +18,7 @@
 ** Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 **/
 
-/**
- * Class DBimap
- * @deprecated
- * @todo написать API и удалить
- */
+
 class DBimap {
 
 	const SCHEMA_FILE = 'schema.inc.php';
@@ -386,7 +382,7 @@ class DBimap {
 	 */
 	public static function find($tableName, array $criteria = array()) {
 		// build the WHERE part
-		$sqlWhere = [];
+		$sqlWhere = array();
 		foreach ($criteria as $field => $value) {
 			// check if the table has this field
 			if (!self::hasField($tableName, $field)) {
