@@ -1,5 +1,5 @@
 # !
-Zabbix 4.4.5, PHP 7.0
+Zabbix 4.4.6, PHP 7.3
 
 Написано ради фана, в большинстве своем недоработано, но основные функции работают на Zabbix 4.4.5.
 
@@ -39,10 +39,17 @@ sudo ln -s ../../local/share/zabbix-interactive-map-19730/imap/zabbix/imap .
 sudo ln -s ../../local/share/zabbix-interactive-map-19730/imap/zabbix/imap.php .
 ```
 
-* Add the menu entry "Monitoring -> Interactive Map" to your zabbix installation by adding this line just before "$denied_page_requested = false;" (~line 304) in `/usr/share/zabbix/include/menu.inc.php`:
+* Add the menu entry "Monitoring -> Interactive Map" to your zabbix installation by adding this line just before "$denied_page_requested = false;" (~line 308) in `/usr/share/zabbix/include/menu.inc.php`:
 
 ```
-    require_once dirname(__FILE__).'/../imap/menu3.inc.php';
+304                                 ]
+305                         ]
+306                 ]
+307         ];
+308         require_once dirname(__FILE__).'/../imap/menu3.inc.php'; # added for Interactive Map
+309
+310         $denied_page_requested = false;
+311         $page_exists = false;
 ```
 
 For additional settings, locate file settings.js.template in the folder imap, rename it in settings.js and change settings to your liking.
