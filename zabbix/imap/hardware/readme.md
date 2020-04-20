@@ -4,3 +4,6 @@ Examples:
   ipcamera.png
   server-windows.png
   router.png
+
+
+Hardware is taken from the 'type' field in the inventory.

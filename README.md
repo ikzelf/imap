@@ -81,3 +81,11 @@ sudo -u zabbix - act as system user 'zabbix' (otherwise PosgreSQL will not authe
 
 -d zabbix - database name.
 
+Current status:
+Works when hosts have their locations set in the inventory (latitude & longitude)
+location can be changed using the map.
+
+Undefined index: profileIdx [imap.php:592 ? CView->render() ? include() in include/views/common.filter.trigger.php:28]
+Undefined index: active_tab [imap.php:592 ? CView->render() ? include() in include/views/common.filter.trigger.php:29]
+Undefined index: ackStatus [imap.php:592 ? CView->render() ? include() in include/views/common.filter.trigger.php:126]
+Undefined index: show_suppressed [imap.php:592 ? CView->render() ? include() in include/views/common.filter.trigger.php:130]

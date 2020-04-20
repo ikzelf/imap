@@ -1,8 +1,7 @@
+/node_modules
+*.log
 .idea
-settings.js
-additions.js
-userstyles.css
-zabbix/imap/version
-zabbix/imap/hardware/*
-!zabbix/imap/hardware/readme.md
-!zabbix/imap/hardware/none.png
+.vscode
+.cache
+.eslintcache
+package-lock.json

@@ -3,8 +3,8 @@
 bindtextdomain('imap', 'locale');
 bind_textdomain_codeset('imap', 'UTF-8');
 
-require_once dirname(__FILE__).'/include/config.inc.php';
-require_once dirname(__FILE__).'/imap/DB.php';
+require_once './include/config.inc.php';
+require_once __DIR__ . '/imap/DB.php';
 
 textdomain("imap");
 $page['title'] = _('Interactive map');
@@ -62,7 +62,7 @@ if (function_exists('GetCurrentNodeId')) {
 };
 
 if ($output!='ajax') {
-	require_once dirname(__FILE__).'/include/page_header.php';
+	require_once './include/page_header.php';
 };
 
 $fields = array(
@@ -816,5 +816,5 @@ foreach ($needThisFiles as $file) {
 
 textdomain("frontend");
 if ($output!='block') {
-	require_once dirname(__FILE__).'/include/page_footer.php';
+	require_once './include/page_footer.php';
 };
